@@ -63,7 +63,9 @@ Pada menu pertama, program akan menampilkan semua data buku yang tersimpan di da
 Contoh:
 
 judul: Seporsi Mie Ayam Sebelum Mati
+
 penulis: Brian Khrisna
+
 tahun_terbit: 2025
 
 <img width="268" height="51" alt="image" src="https://github.com/user-attachments/assets/e985bbda-a5a4-45a1-b254-306c36ad8419" />
