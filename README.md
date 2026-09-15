@@ -65,7 +65,7 @@ judul: Seporsi Mie Ayam Sebelum Mati
 penulis: Brian Khrisna
 tahun_terbit: 2025
 
-<img width="377" height="313" alt="image" src="https://github.com/user-attachments/assets/07886bbe-cbd6-4844-b8d3-f8c5d65dfcf6" />
+<img width="268" height="51" alt="image" src="https://github.com/user-attachments/assets/e985bbda-a5a4-45a1-b254-306c36ad8419" />
 
 
 2. Menambahkan Data Penerbit
@@ -78,7 +78,7 @@ buku["penerbit"] = penerbit
 
 Data penerbit akan ditambahkan sebagai key baru pada dictionary.
 
-<img width="357" height="242" alt="image" src="https://github.com/user-attachments/assets/da2f8ae6-f51c-433c-a122-1059f00d7864" />
+<img width="582" height="158" alt="image" src="https://github.com/user-attachments/assets/2b39e378-30e4-451b-b5b5-1a431fb65e6f" />
 
 
 3. Mengubah Data Penulis
@@ -143,11 +143,19 @@ Screenshot Hasil Program
 
 <img width="387" height="187" alt="image" src="https://github.com/user-attachments/assets/5eacc29e-a7a9-4457-a7ac-1663f8e31a4e" />
 
+
+
 <img width="477" height="857" alt="image" src="https://github.com/user-attachments/assets/033a3254-3479-4e41-832b-ed9ad3d237c2" />
+
+
 
 <img width="426" height="777" alt="image" src="https://github.com/user-attachments/assets/6847cd9c-07ec-4ed0-83b6-699be1604947" />
 
+
+
 <img width="395" height="547" alt="image" src="https://github.com/user-attachments/assets/16ee87be-ee6d-45b2-9b3f-ad81b531f9ba" />
+
+
 
 <img width="392" height="208" alt="image" src="https://github.com/user-attachments/assets/d17f6b79-dccd-4222-8945-6564e66fa715" />
 
