@@ -11,6 +11,9 @@ Value: Seporsi Mie Ayam Sebelum Mati
 
 Dengan dictionary, data dapat lebih mudah ditambah, diubah, maupun dihapus.
 
+<img width="528" height="145" alt="image" src="https://github.com/user-attachments/assets/f42c5da6-cd65-454a-82bf-2597a38de4fc" />
+
+
 2. Fungsi Tampilkan Data
 
 Program menggunakan fungsi tampilkan_data() untuk menampilkan isi dictionary buku.
@@ -22,6 +25,9 @@ Pada fungsi ini digunakan:
 for kunci, nilai in buku.items():
 
 items() digunakan untuk mengambil key dan value secara bersamaan, kemudian ditampilkan menggunakan perulangan.
+
+<img width="585" height="250" alt="image" src="https://github.com/user-attachments/assets/c88ace73-1c55-42c5-ad5c-00f6f2a07b6a" />
+
 
 3. Perulangan Menu
 
@@ -59,6 +65,9 @@ buku["penerbit"] = penerbit
 
 Data penerbit akan ditambahkan sebagai key baru pada dictionary.
 
+<img width="625" height="233" alt="image" src="https://github.com/user-attachments/assets/1b83886b-77a8-4af7-92d7-09f8e45ad6cb" />
+
+
 3. Mengubah Data Penulis
 
 Menu ketiga digunakan untuk mengganti data penulis.
@@ -68,6 +77,9 @@ Kode yang digunakan:
 buku["penulis"] = penulis_baru
 
 Nilai dari key penulis akan berubah sesuai input pengguna.
+
+<img width="707" height="166" alt="image" src="https://github.com/user-attachments/assets/8adc6cbe-fcb9-407b-abfc-55a96b2cec17" />
+
 
 4. Menghapus Data Penerbit
 
@@ -80,9 +92,15 @@ buku.pop("penerbit")
 Sebelum menghapus, program mengecek apakah data penerbit tersedia menggunakan:
 
 if "penerbit" in buku:
+
+<img width="591" height="172" alt="image" src="https://github.com/user-attachments/assets/5f19fafd-28a1-4020-aefc-77bdad675dfd" />
+
 5. Menampilkan Data Setelah Perubahan
 
 Menu kelima digunakan untuk melihat data buku setelah dilakukan perubahan, baik penambahan, pengubahan, maupun penghapusan data.
+
+<img width="641" height="175" alt="image" src="https://github.com/user-attachments/assets/5939e8ce-f838-4a99-8f07-7f0e7af0bd83" />
+
 
 6. Keluar Program
 
@@ -93,6 +111,9 @@ Kode:
 break
 
 break berfungsi untuk menghentikan perulangan while.
+
+<img width="672" height="136" alt="image" src="https://github.com/user-attachments/assets/367e22af-bf13-4c38-b4f0-50204210ddbf" />
+
 
 Konsep Python yang Digunakan
 
@@ -107,9 +128,17 @@ items() untuk mengambil key dan value.
 pop() untuk menghapus data pada dictionary.
 Screenshot Hasil Program
 
-Tambahkan screenshot hasil menjalankan program di bawah ini:
+<img width="387" height="187" alt="image" src="https://github.com/user-attachments/assets/5eacc29e-a7a9-4457-a7ac-1663f8e31a4e" />
 
-(Masukkan gambar hasil output program di sini)
+<img width="477" height="857" alt="image" src="https://github.com/user-attachments/assets/033a3254-3479-4e41-832b-ed9ad3d237c2" />
+
+<img width="426" height="777" alt="image" src="https://github.com/user-attachments/assets/6847cd9c-07ec-4ed0-83b6-699be1604947" />
+
+<img width="395" height="547" alt="image" src="https://github.com/user-attachments/assets/16ee87be-ee6d-45b2-9b3f-ad81b531f9ba" />
+
+<img width="392" height="208" alt="image" src="https://github.com/user-attachments/assets/d17f6b79-dccd-4222-8945-6564e66fa715" />
+
+
 
 Kesimpulan
 
