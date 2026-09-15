@@ -78,7 +78,7 @@ buku["penerbit"] = penerbit
 
 Data penerbit akan ditambahkan sebagai key baru pada dictionary.
 
-<img width="625" height="233" alt="image" src="https://github.com/user-attachments/assets/1b83886b-77a8-4af7-92d7-09f8e45ad6cb" />
+<img width="357" height="242" alt="image" src="https://github.com/user-attachments/assets/da2f8ae6-f51c-433c-a122-1059f00d7864" />
 
 
 3. Mengubah Data Penulis
