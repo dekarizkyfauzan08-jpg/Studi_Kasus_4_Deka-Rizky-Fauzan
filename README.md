@@ -1,7 +1,7 @@
 # Studi_Kasus_4_Deka-Rizky-Fauzan
 Penjelasan Program
 
-1. Dictionary
+-Dictionary
 
 Dictionary digunakan untuk menyimpan data buku dalam bentuk pasangan key dan value.
 
@@ -15,7 +15,7 @@ Dengan dictionary, data dapat lebih mudah ditambah, diubah, maupun dihapus.
 <img width="528" height="145" alt="image" src="https://github.com/user-attachments/assets/f42c5da6-cd65-454a-82bf-2597a38de4fc" />
 
 
-2. Fungsi Tampilkan Data
+-Fungsi Tampilkan Data
 
 Program menggunakan fungsi tampilkan_data() untuk menampilkan isi dictionary buku.
 
@@ -30,7 +30,7 @@ items() digunakan untuk mengambil key dan value secara bersamaan, kemudian ditam
 <img width="585" height="250" alt="image" src="https://github.com/user-attachments/assets/c88ace73-1c55-42c5-ad5c-00f6f2a07b6a" />
 
 
-3. Perulangan Menu
+-Perulangan Menu
 
 Program menggunakan:
 
@@ -56,7 +56,7 @@ Keluar
 
 
 Fitur Program
-1. Menampilkan Data Buku
+-Menampilkan Data Buku
 
 Pada menu pertama, program akan menampilkan semua data buku yang tersimpan di dalam dictionary.
 
@@ -69,7 +69,7 @@ tahun_terbit: 2025
 <img width="268" height="51" alt="image" src="https://github.com/user-attachments/assets/e985bbda-a5a4-45a1-b254-306c36ad8419" />
 
 
-2. Menambahkan Data Penerbit
+-Menambahkan Data Penerbit
 
 Menu kedua digunakan untuk menambahkan data baru ke dictionary.
 
@@ -82,7 +82,7 @@ Data penerbit akan ditambahkan sebagai key baru pada dictionary.
 <img width="582" height="158" alt="image" src="https://github.com/user-attachments/assets/2b39e378-30e4-451b-b5b5-1a431fb65e6f" />
 
 
-3. Mengubah Data Penulis
+-Mengubah Data Penulis
 
 Menu ketiga digunakan untuk mengganti data penulis.
 
@@ -95,7 +95,7 @@ Nilai dari key penulis akan berubah sesuai input pengguna.
 <img width="707" height="166" alt="image" src="https://github.com/user-attachments/assets/8adc6cbe-fcb9-407b-abfc-55a96b2cec17" />
 
 
-4. Menghapus Data Penerbit
+-Menghapus Data Penerbit
 
 Menu keempat digunakan untuk menghapus data penerbit.
 
@@ -109,14 +109,14 @@ if "penerbit" in buku:
 
 <img width="591" height="172" alt="image" src="https://github.com/user-attachments/assets/5f19fafd-28a1-4020-aefc-77bdad675dfd" />
 
-5. Menampilkan Data Setelah Perubahan
+-Menampilkan Data Setelah Perubahan
 
 Menu kelima digunakan untuk melihat data buku setelah dilakukan perubahan, baik penambahan, pengubahan, maupun penghapusan data.
 
 <img width="641" height="175" alt="image" src="https://github.com/user-attachments/assets/5939e8ce-f838-4a99-8f07-7f0e7af0bd83" />
 
 
-6. Keluar Program
+-Keluar Program
 
 Menu keenam digunakan untuk menghentikan program.
 
