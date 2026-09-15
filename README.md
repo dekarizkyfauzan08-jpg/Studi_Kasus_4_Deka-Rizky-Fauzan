@@ -148,8 +148,8 @@ Screenshot Hasil Program
 
 
 
+<img width="477" height="857" alt="Cuplikan layar 2026-09-15 215050" src="https://github.com/user-attachments/assets/14015dae-5447-4408-9ac9-baa297bed04d" />
 
-<img width="477" height="857" alt="image" src="https://github.com/user-attachments/assets/033a3254-3479-4e41-832b-ed9ad3d237c2" /
 
 
 
