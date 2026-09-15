@@ -1,173 +1,72 @@
 # Studi_Kasus_4_Deka-Rizky-Fauzan
-Penjelasan Program
+1. Inisialisasi Data Produk
 
--Dictionary
+Program diawali dengan membuat sebuah dictionary bernama produk yang digunakan untuk menyimpan informasi produk. Data awal yang disimpan berupa nama produk, harga, dan jumlah stok. Penggunaan dictionary memudahkan program dalam mengakses dan mengubah data berdasarkan kunci seperti nama, harga, dan stok.
 
-Dictionary digunakan untuk menyimpan data buku dalam bentuk pasangan key dan value.
+2. Perulangan Menu Utama
 
-Contoh:
+Bagian while True digunakan agar program dapat berjalan secara terus-menerus sampai pengguna memilih menu keluar. Di dalam perulangan ini terdapat tampilan menu yang memberikan beberapa pilihan kepada pengguna, yaitu melihat data produk, menambahkan kategori, mengubah harga, menghapus kategori, dan keluar dari program.
 
-Key: judul
-Value: Seporsi Mie Ayam Sebelum Mati
+3. Input Pilihan Pengguna
 
-Dengan dictionary, data dapat lebih mudah ditambah, diubah, maupun dihapus.
+Variabel pilihan digunakan untuk menerima masukan dari pengguna berdasarkan menu yang tersedia. Nilai input tersebut kemudian digunakan sebagai kondisi untuk menentukan proses yang akan dijalankan menggunakan percabangan if-elif-else.
 
-<img width="528" height="145" alt="image" src="https://github.com/user-attachments/assets/f42c5da6-cd65-454a-82bf-2597a38de4fc" />
+4. Menampilkan Data Produk
 
+Pada pilihan menu pertama, program akan menampilkan seluruh data yang terdapat dalam dictionary produk. Perulangan for digunakan untuk membaca setiap pasangan kunci dan nilai pada data produk, kemudian menampilkannya ke layar.
 
--Fungsi Tampilkan Data
+5. Menambahkan Kategori Produk
 
-Program menggunakan fungsi tampilkan_data() untuk menampilkan isi dictionary buku.
+Pada pilihan kedua, program memberikan fitur untuk menambahkan data baru berupa kategori produk. Data kategori dimasukkan oleh pengguna melalui input() dan kemudian disimpan ke dalam dictionary produk dengan kunci baru bernama kategori.
 
-def tampilkan_data():
+6. Mengubah Harga Produk
 
-Pada fungsi ini digunakan:
+Pada pilihan ketiga, pengguna dapat mengganti harga produk yang sudah ada dengan harga baru. Program menggunakan try-except untuk menangani kemungkinan kesalahan jika pengguna memasukkan nilai yang bukan angka, sehingga program tetap dapat berjalan tanpa berhenti secara tiba-tiba.
 
-for kunci, nilai in buku.items():
+7. Menghapus Kategori Produk
 
-items() digunakan untuk mengambil key dan value secara bersamaan, kemudian ditampilkan menggunakan perulangan.
+Pada pilihan keempat, program akan memeriksa apakah data kategori tersedia di dalam dictionary. Jika kategori ditemukan, data tersebut akan dihapus menggunakan fungsi pop(). Jika kategori belum ada, program akan menampilkan pesan bahwa data kategori belum tersedia.
 
-<img width="585" height="250" alt="image" src="https://github.com/user-attachments/assets/c88ace73-1c55-42c5-ad5c-00f6f2a07b6a" />
+8. Keluar dari Program
 
+Pada pilihan kelima, program akan menampilkan kembali seluruh data produk setelah dilakukan perubahan. Setelah itu, perintah break digunakan untuk menghentikan perulangan sehingga program dapat selesai dijalankan.
 
--Perulangan Menu
+9. Kondisi Pilihan Tidak Valid
 
-Program menggunakan:
+Bagian terakhir digunakan untuk menangani input pengguna yang tidak sesuai dengan pilihan menu yang tersedia. Jika pengguna memasukkan angka selain 1 sampai 5, program akan memberikan pesan bahwa pilihan menu tidak valid.
 
-while True:
+-OUTPUT PROGRAM-
 
-Perulangan ini membuat menu dapat dijalankan berulang kali sampai pengguna memilih menu keluar.
+1.Tampilan Menu Awal
 
-Menu yang tersedia:
+<img width="395" height="171" alt="image" src="https://github.com/user-attachments/assets/9f5fc039-3d66-4497-a14d-9abe97f4d6e5" />
 
-Tampilkan data buku
 
-Tambahkan data penerbit
+Screenshot ini menunjukkan bahwa program berhasil berjalan dan menu utama dapat ditampilkan.
 
-Ubah data penulis
+2.Menampilkan Data Produk
+   
+<img width="337" height="317" alt="image" src="https://github.com/user-attachments/assets/08f8287e-d453-4814-80c2-d38137ebef19" />
 
-Hapus data penerbit
+Screenshot ini menunjukkan fitur membaca dan menampilkan data dari dictionary berhasil dijalankan.
 
-Tampilkan data setelah perubahan
+3.Menambahkan Kategori
 
-Keluar
+<img width="410" height="226" alt="image" src="https://github.com/user-attachments/assets/998e9b51-5b8b-425c-b886-bef0e561115e" />
 
-<img width="625" height="233" alt="image" src="https://github.com/user-attachments/assets/3dd59c4a-e95c-4c79-a7e6-e32390308d89" />
 
+Screenshot ini menunjukkan program dapat menambahkan data baru ke dalam dictionary.
 
-Fitur Program
--Menampilkan Data Buku
+4. Mengubah Harga
 
-Pada menu pertama, program akan menampilkan semua data buku yang tersimpan di dalam dictionary.
+<img width="356" height="218" alt="image" src="https://github.com/user-attachments/assets/32b30eac-78ea-4265-9d3c-86f819e73155" />
 
-Contoh:
 
-judul: Seporsi Mie Ayam Sebelum Mati
+Screenshot ini menunjukkan fitur perubahan data produk berhasil dilakukan.
 
-penulis: Brian Khrisna
+5. Menghapus Kategori dan Keluar Program
 
-tahun_terbit: 2025
+<img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/d5061504-cb4d-4b3a-b3cb-058e76657233" />
 
-<img width="268" height="51" alt="image" src="https://github.com/user-attachments/assets/e985bbda-a5a4-45a1-b254-306c36ad8419" />
 
-
--Menambahkan Data Penerbit
-
-Menu kedua digunakan untuk menambahkan data baru ke dictionary.
-
-Kode yang digunakan:
-
-buku["penerbit"] = penerbit
-
-Data penerbit akan ditambahkan sebagai key baru pada dictionary.
-
-<img width="582" height="158" alt="image" src="https://github.com/user-attachments/assets/2b39e378-30e4-451b-b5b5-1a431fb65e6f" />
-
-
--Mengubah Data Penulis
-
-Menu ketiga digunakan untuk mengganti data penulis.
-
-Kode yang digunakan:
-
-buku["penulis"] = penulis_baru
-
-Nilai dari key penulis akan berubah sesuai input pengguna.
-
-<img width="707" height="166" alt="image" src="https://github.com/user-attachments/assets/8adc6cbe-fcb9-407b-abfc-55a96b2cec17" />
-
-
--Menghapus Data Penerbit
-
-Menu keempat digunakan untuk menghapus data penerbit.
-
-Kode yang digunakan:
-
-buku.pop("penerbit")
-
-Sebelum menghapus, program mengecek apakah data penerbit tersedia menggunakan:
-
-if "penerbit" in buku:
-
-<img width="591" height="172" alt="image" src="https://github.com/user-attachments/assets/5f19fafd-28a1-4020-aefc-77bdad675dfd" />
-
--Menampilkan Data Setelah Perubahan
-
-Menu kelima digunakan untuk melihat data buku setelah dilakukan perubahan, baik penambahan, pengubahan, maupun penghapusan data.
-
-<img width="641" height="175" alt="image" src="https://github.com/user-attachments/assets/5939e8ce-f838-4a99-8f07-7f0e7af0bd83" />
-
-
--Keluar Program
-
-Menu keenam digunakan untuk menghentikan program.
-
-Kode:
-
-break
-
-break berfungsi untuk menghentikan perulangan while.
-
-<img width="672" height="136" alt="image" src="https://github.com/user-attachments/assets/367e22af-bf13-4c38-b4f0-50204210ddbf" />
-
-
-Konsep Python yang Digunakan
-
-Beberapa konsep Python yang diterapkan dalam program ini:
-
-Dictionary untuk menyimpan data.
-Perulangan while untuk menjalankan menu secara berulang.
-Perulangan for untuk membaca isi dictionary.
-Percabangan if-elif-else untuk memilih menu.
-Fungsi untuk membuat kode lebih terstruktur.
-items() untuk mengambil key dan value.
-pop() untuk menghapus data pada dictionary.
-Screenshot Hasil Program
-
-<img width="387" height="187" alt="image" src="https://github.com/user-attachments/assets/5eacc29e-a7a9-4457-a7ac-1663f8e31a4e" />
-
-
-
-
-
-<img width="477" height="857" alt="Cuplikan layar 2026-09-15 215050" src="https://github.com/user-attachments/assets/14015dae-5447-4408-9ac9-baa297bed04d" />
-
-
-
-
-
-
-
-<img width="426" height="777" alt="image" src="https://github.com/user-attachments/assets/6847cd9c-07ec-4ed0-83b6-699be1604947" />
-
-
-<img width="395" height="547" alt="image" src="https://github.com/user-attachments/assets/16ee87be-ee6d-45b2-9b3f-ad81b531f9ba" />
-
-
-<img width="392" height="208" alt="image" src="https://github.com/user-attachments/assets/d17f6b79-dccd-4222-8945-6564e66fa715" />
-
-
-
-Kesimpulan
-Program ini dapat digunakan untuk mengelola data buku sederhana menggunakan dictionary Python.
-Melalui menu yang tersedia, pengguna dapat melihat, menambahkan, mengubah, dan menghapus data buku dengan mudah.
+Screenshot ini menunjukkan bahwa data dapat dihapus dan program dapat berhenti dengan baik.
