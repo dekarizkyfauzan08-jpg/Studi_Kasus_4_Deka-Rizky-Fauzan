@@ -2,61 +2,47 @@
 # Nim : 2609116052
 # Kelas : B
 
-buku = {
-	"judul": "Seporsi Mie Ayam Sebelum Mati",
-	"penulis": "Brian Khrisna",
-	"tahun_terbit": 2025,
+produk = {
+	"nama": "Aerox",
+	"harga": 35000000,
+	"stok": 10
 }
 
-
-def tampilkan_data():
-	"""Menampilkan seluruh data buku."""
-	print("\nData Buku")
-	print("-" * 20)
-	if not buku:
-		print("Data buku kosong.")
-	else:
-		for kunci, nilai in buku.items():
-			print(f"{kunci}: {nilai}")
-
-
 while True:
-	print("\n=== Menu Pengelolaan Buku ===")
-	print("1. Tampilkan data buku")
-	print("2. Tambahkan data penerbit")
-	print("3. Ubah data penulis")
-	print("4. Hapus data penerbit")
-	print("5. Tampilkan data setelah perubahan")
-	print("6. Keluar")
+	print("\n=== MENU PENGELOLAAN DATA PRODUK ===")
+	print("1. Tampilkan data produk")
+	print("2. Tambah kategori")
+	print("3. Ubah harga")
+	print("4. Hapus kategori")
+	print("5. Keluar")
 
-	pilihan = input("Pilih menu (1-6): ").strip()
+	pilihan = input("Pilih menu (1-5): ")
 
 	if pilihan == "1":
-		tampilkan_data()
+		print("\nData produk:")
+		for kunci, nilai in produk.items():
+			print(f"{kunci.capitalize()}: {nilai}")
 	elif pilihan == "2":
-		penerbit = input("Masukkan nama penerbit: ").strip()
-		if penerbit:
-			buku["penerbit"] = penerbit
-			print("Data penerbit berhasil ditambahkan.")
-		else:
-			print("Nama penerbit tidak boleh kosong.")
+		produk["kategori"] = input("Masukkan kategori produk: ")
+		print("Kategori berhasil ditambahkan.")
 	elif pilihan == "3":
-		penulis_baru = input("Masukkan nama penulis baru: ").strip()
-		if penulis_baru:
-			buku["penulis"] = penulis_baru
-			print("Data penulis berhasil diubah.")
-		else:
-			print("Nama penulis tidak boleh kosong.")
+		try:
+			produk["harga"] = int(input("Masukkan harga baru: "))
+			print("Harga berhasil diubah.")
+		except ValueError:
+			print("Harga harus berupa angka.")
 	elif pilihan == "4":
-		if "penerbit" in buku:
-			buku.pop("penerbit")
-			print("Data penerbit berhasil dihapus.")
+		if "kategori" in produk:
+			produk.pop("kategori")
+			print("Kategori berhasil dihapus.")
 		else:
-			print("Data penerbit belum tersedia.")
+			print("Data kategori belum tersedia.")
 	elif pilihan == "5":
-		tampilkan_data()
-	elif pilihan == "6":
+		print("\nData produk setelah perubahan:")
+		for kunci, nilai in produk.items():
+			print(f"{kunci.capitalize()}: {nilai}")
 		print("Program selesai.")
 		break
 	else:
-		print("Pilihan tidak valid. Silakan pilih menu 1-6.")
+		print("Pilihan menu tidak valid.")
+
