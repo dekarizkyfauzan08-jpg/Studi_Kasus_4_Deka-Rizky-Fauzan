@@ -40,11 +40,20 @@ Perulangan ini membuat menu dapat dijalankan berulang kali sampai pengguna memil
 Menu yang tersedia:
 
 Tampilkan data buku
+
 Tambahkan data penerbit
+
 Ubah data penulis
+
 Hapus data penerbit
+
 Tampilkan data setelah perubahan
+
 Keluar
+
+<img width="625" height="233" alt="image" src="https://github.com/user-attachments/assets/3dd59c4a-e95c-4c79-a7e6-e32390308d89" />
+
+
 Fitur Program
 1. Menampilkan Data Buku
 
@@ -55,6 +64,10 @@ Contoh:
 judul: Seporsi Mie Ayam Sebelum Mati
 penulis: Brian Khrisna
 tahun_terbit: 2025
+
+<img width="377" height="313" alt="image" src="https://github.com/user-attachments/assets/07886bbe-cbd6-4844-b8d3-f8c5d65dfcf6" />
+
+
 2. Menambahkan Data Penerbit
 
 Menu kedua digunakan untuk menambahkan data baru ke dictionary.
